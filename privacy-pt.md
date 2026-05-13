@@ -8,14 +8,9 @@ Balance ("nós", "app") é desenvolvido por Michel Santos.
 
 ## Dados Coletados
 
-O app armazena os seguintes dados **apenas localmente no seu dispositivo**:
+O app armazena seus dados de saúde (registros de peso, altura, metas e fotos) apenas localmente no seu dispositivo ou na sua conta pessoal do iCloud.
 
-- Registros de peso e anotações
-- Altura e meta de peso
-- Fotos de progresso
-- Preferências e configurações do app
-
-Não coletamos, transmitimos nem temos acesso a nenhum desses dados.
+Para fins de melhoria técnica e de interface, coletamos dados de uso anônimos (como cliques em botões e tempo de permanência em telas) através da plataforma Amplitude. Esses dados não são vinculados à sua identidade e não incluem suas informações de saúde.
 
 ---
 
@@ -33,9 +28,13 @@ Se você ativar a sincronização com o Health, o app lê e grava peso e altura 
 
 ## Terceiros
 
-**Não utilizamos SDKs de publicidade, plataformas de analytics nem processadores de dados de terceiros.**
+Não utilizamos SDKs de publicidade ou rastreadores de redes sociais. Utilizamos apenas:
 
-A cobrança das assinaturas é gerenciada inteiramente pela StoreKit da Apple. Não temos acesso às suas informações de pagamento.
+Amplitude: Para análise técnica de performance e usabilidade (dados anônimos).
+
+Lottie (Airbnb): Para renderização de animações visuais (não coleta dados).
+
+Apple StoreKit: Para gestão de assinaturas (não temos acesso aos seus dados de pagamento).
 
 ---
 
@@ -45,6 +44,7 @@ Para excluir todos os seus dados, basta deletar o app do seu dispositivo.
 
 Para remover os dados do iCloud: **Ajustes do iOS → [Seu Nome] → iCloud → Gerenciar Armazenamento → Balance → Apagar Dados.**
 
+Ao deletar o app, a coleta de eventos de uso é interrompida imediatamente.
 ---
 
 ## Privacidade de Crianças
